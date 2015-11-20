@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Peliculas", "Peliculas\", "{26492208-A1DA-4399-B1E9-C9AB0EFD6273}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Peliculas"
+		Debug.AspNetCompiler.PhysicalPath = "Peliculas\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Peliculas\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Peliculas"
+		Release.AspNetCompiler.PhysicalPath = "Peliculas\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Peliculas\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1582"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.-UI", "1.-UI", "{6EF9BAC8-67EE-400D-B0D3-2E14BBD61B8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.-Bus", "2.-Bus", "{4A08534C-6426-4A9C-BB25-465D49E3B59B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.-Dat", "3.-Dat", "{CCFDBBC2-7D20-47BB-ADA2-B1313A7347C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTresCapasPelicula", "BusTresCapasPelicula\BusTresCapasPelicula.csproj", "{48FBC53C-ABB2-4115-ABA3-80AFF85C9086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntTresCapasPelicula", "EntTresCapasPelicula\EntTresCapasPelicula.csproj", "{DB17F25D-4C9D-4B84-BD69-FBD1D8868DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatTresCapasPelicula", "DatTresCapasPelicula\DatTresCapasPelicula.csproj", "{57D460D7-7F39-49A5-9C99-BA79B210DC31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26492208-A1DA-4399-B1E9-C9AB0EFD6273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26492208-A1DA-4399-B1E9-C9AB0EFD6273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26492208-A1DA-4399-B1E9-C9AB0EFD6273}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{26492208-A1DA-4399-B1E9-C9AB0EFD6273}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{48FBC53C-ABB2-4115-ABA3-80AFF85C9086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FBC53C-ABB2-4115-ABA3-80AFF85C9086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FBC53C-ABB2-4115-ABA3-80AFF85C9086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FBC53C-ABB2-4115-ABA3-80AFF85C9086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB17F25D-4C9D-4B84-BD69-FBD1D8868DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB17F25D-4C9D-4B84-BD69-FBD1D8868DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB17F25D-4C9D-4B84-BD69-FBD1D8868DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB17F25D-4C9D-4B84-BD69-FBD1D8868DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D460D7-7F39-49A5-9C99-BA79B210DC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D460D7-7F39-49A5-9C99-BA79B210DC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D460D7-7F39-49A5-9C99-BA79B210DC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D460D7-7F39-49A5-9C99-BA79B210DC31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26492208-A1DA-4399-B1E9-C9AB0EFD6273} = {6EF9BAC8-67EE-400D-B0D3-2E14BBD61B8D}
+		{48FBC53C-ABB2-4115-ABA3-80AFF85C9086} = {4A08534C-6426-4A9C-BB25-465D49E3B59B}
+		{DB17F25D-4C9D-4B84-BD69-FBD1D8868DF8} = {4A08534C-6426-4A9C-BB25-465D49E3B59B}
+		{57D460D7-7F39-49A5-9C99-BA79B210DC31} = {CCFDBBC2-7D20-47BB-ADA2-B1313A7347C9}
+	EndGlobalSection
+EndGlobal
