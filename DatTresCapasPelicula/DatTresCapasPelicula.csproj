@@ -8,7 +8,7 @@
     <ProjectGuid>{57D460D7-7F39-49A5-9C99-BA79B210DC31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DatTresCapasPelicula</RootNamespace>
+    <RootNamespace>Peliculas.Data</RootNamespace>
     <AssemblyName>DatTresCapasPelicula</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatCatalogos.cs" />
+    <Compile Include="DatPelicula.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

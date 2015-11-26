@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{48FBC53C-ABB2-4115-ABA3-80AFF85C9086}</ProjectGuid>
+    <ProjectGuid>{C60BF265-2878-4614-8537-0EDDAD7D4B71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Peliculas.Bussines</RootNamespace>
-    <AssemblyName>BusTresCapasPelicula</AssemblyName>
+    <RootNamespace>Peliculas.Bussines.Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,19 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusCatalogo.cs" />
-    <Compile Include="BusPelicula.cs" />
+    <Compile Include="EntUsuario.cs" />
+    <Compile Include="EntClasi.cs" />
+    <Compile Include="EntGenero.cs" />
+    <Compile Include="EntPelicula.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DatTresCapasPelicula\DatTresCapasPelicula.csproj">
-      <Project>{57D460D7-7F39-49A5-9C99-BA79B210DC31}</Project>
-      <Name>DatTresCapasPelicula</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EntTresCapasPelicula\EntTresCapasPelicula.csproj">
-      <Project>{DB17F25D-4C9D-4B84-BD69-FBD1D8868DF8}</Project>
-      <Name>EntTresCapasPelicula</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

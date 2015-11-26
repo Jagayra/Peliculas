@@ -8,7 +8,7 @@
     <ProjectGuid>{DB17F25D-4C9D-4B84-BD69-FBD1D8868DF8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EntTresCapasPelicula</RootNamespace>
+    <RootNamespace>Peliculas.Bussines.Entity</RootNamespace>
     <AssemblyName>EntTresCapasPelicula</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntClasi.cs" />
+    <Compile Include="EntGenero.cs" />
+    <Compile Include="EntPelicula.cs" />
+    <Compile Include="EntUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
